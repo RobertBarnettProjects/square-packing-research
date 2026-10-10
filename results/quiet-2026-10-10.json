@@ -1,0 +1,68 @@
+{
+  "checked_on": "2026-10-10",
+  "comparison_scope": "pinned public source certificates and their actual coordinate envelopes; global optimality and catalogue acceptance unestablished",
+  "cpu_workers": 1,
+  "gpu_executed": false,
+  "results": [
+    {
+      "n": 70,
+      "certificate": "certificates/n070.cert",
+      "side": "8.880960371668802",
+      "side_fraction": "4440480185834401/500000000000000",
+      "sha256": "767adfdc54477bf1fc2c46eeaf0f71cdfc87c8639391bb43ec5a0586bff4cdc2",
+      "reference_side": "8.8809603717088809603717",
+      "reference_source_url": "https://raw.githubusercontent.com/ry-xu/square_packing/8dc415296f697f5140caea27c7a0193d52deb4e6/certificates/n070/n070.cert.json",
+      "reduction": "4.00789603717E-11",
+      "reduction_below_undilated_source_span": "3.1198E-11",
+      "classification": "precision-scale local refinement",
+      "four_exact_checks_passed": true,
+      "ellsworth_supplementary_check_passed": true,
+      "method": "normalized minimum-movement sequential linear programming"
+    },
+    {
+      "n": 103,
+      "certificate": "certificates/n103.cert",
+      "side": "10.679232047495411",
+      "side_fraction": "10679232047495411/1000000000000000",
+      "sha256": "496da623c14ea7983729f7b3e380cb1c7431612a85de52b0c30f636d3d3a2952",
+      "reference_side": "10.6792320475106792320475",
+      "reference_source_url": "https://raw.githubusercontent.com/ry-xu/square_packing/8dc415296f697f5140caea27c7a0193d52deb4e6/certificates/n103/n103.cert.json",
+      "reduction": "1.52682320475E-11",
+      "reduction_below_undilated_source_span": "4.589E-12",
+      "classification": "precision-scale local refinement",
+      "four_exact_checks_passed": true,
+      "ellsworth_supplementary_check_passed": true,
+      "method": "normalized minimum-movement sequential linear programming"
+    },
+    {
+      "n": 123,
+      "certificate": "certificates/n123.cert",
+      "side": "11.591378145643661",
+      "side_fraction": "11591378145643661/1000000000000000",
+      "sha256": "b3ea89a34eda651cc851f126d9adb023f74e9e2cdb49745c114abe4b9142cd1c",
+      "reference_side": "11.5913781457115913781457",
+      "reference_source_url": "https://raw.githubusercontent.com/ry-xu/square_packing/8dc415296f697f5140caea27c7a0193d52deb4e6/certificates/n123/n123.cert.json",
+      "reduction": "6.79303781457E-11",
+      "reduction_below_undilated_source_span": "5.6339E-11",
+      "classification": "precision-scale local refinement",
+      "four_exact_checks_passed": true,
+      "ellsworth_supplementary_check_passed": true,
+      "method": "normalized minimum-movement sequential linear programming"
+    },
+    {
+      "n": 295,
+      "certificate": "certificates/n295.cert",
+      "side": "17.704232790955142",
+      "side_fraction": "8852116395477571/500000000000000",
+      "sha256": "e9226d79456445dd4513c6fb95d8b34ebe568959816bf77e60a19af937b3ac73",
+      "reference_side": "17.7042327915177042327915",
+      "reference_source_url": "https://raw.githubusercontent.com/ry-xu/square_packing/8dc415296f697f5140caea27c7a0193d52deb4e6/certificates/n295/n295.cert.json",
+      "reduction": "5.625622327915E-10",
+      "reduction_below_undilated_source_span": "5.44858E-10",
+      "classification": "precision-scale local refinement",
+      "four_exact_checks_passed": true,
+      "ellsworth_supplementary_check_passed": true,
+      "method": "separating-face choices and local refinement"
+    }
+  ]
+}
