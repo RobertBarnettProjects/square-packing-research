@@ -1,0 +1,160 @@
+{
+  "figures": [
+    {
+      "n": 146,
+      "image": "images/n146.png",
+      "image_sha256": "8f96bdd1392720bcb103454604b55b7c4eca766da1464ee2084d5d5bd985e015",
+      "width": 2400,
+      "height": 1600,
+      "certificate": "certificates/n146.cert",
+      "certificate_sha256": "77b5524f387472a8e5996e319d05735e2a6a0046c24e7043995549bf3945fa3d",
+      "side_fraction": "116279649124311595126849961042493265136092670741573762928668277775998122712863472766532671969348798419026610394581005669/9240437194455113887096299456817024243377978045957194209468060456305894240222303442118770000000000000000000000000000000",
+      "side_upper_decimal": "12.583782203951046204",
+      "geometry": "vertices computed with exact Fraction arithmetic, then rounded for drawing",
+      "rotation_key": "actual rotations modulo 90 degrees, rounded to 5 decimals; no angle-range labels",
+      "categories": [
+        {
+          "id": 1,
+          "display_angle_degrees": 0.0,
+          "label": "\u2248 0\u00b0",
+          "count": 99,
+          "colour": "#B4D8EF"
+        },
+        {
+          "id": 2,
+          "display_angle_degrees": -39.65076,
+          "label": "\u2248 -39.65076\u00b0",
+          "count": 23,
+          "colour": "#F7C99D"
+        },
+        {
+          "id": 3,
+          "display_angle_degrees": -42.21972,
+          "label": "\u2248 -42.21972\u00b0",
+          "count": 5,
+          "colour": "#D0B9E4"
+        },
+        {
+          "id": 4,
+          "display_angle_degrees": 9e-05,
+          "label": "\u2248 0.00009\u00b0",
+          "count": 4,
+          "colour": "#EDD06C"
+        },
+        {
+          "id": 5,
+          "display_angle_degrees": -1.07177,
+          "label": "\u2248 -1.07177\u00b0",
+          "count": 3,
+          "colour": "#AAD0AA"
+        },
+        {
+          "id": 6,
+          "display_angle_degrees": -42.17502,
+          "label": "\u2248 -42.17502\u00b0",
+          "count": 2,
+          "colour": "#EDA7AE"
+        },
+        {
+          "id": 7,
+          "display_angle_degrees": -42.16734,
+          "label": "\u2248 -42.16734\u00b0",
+          "count": 2,
+          "colour": "#A2D5CD"
+        },
+        {
+          "id": 8,
+          "display_angle_degrees": -9e-05,
+          "label": "\u2248 -0.00009\u00b0",
+          "count": 2,
+          "colour": "#B7BDEC"
+        },
+        {
+          "id": 9,
+          "display_angle_degrees": -43.41951,
+          "label": "\u2248 -43.41951\u00b0",
+          "count": 1,
+          "colour": "#CFB49A"
+        },
+        {
+          "id": 10,
+          "display_angle_degrees": -42.2323,
+          "label": "\u2248 -42.2323\u00b0",
+          "count": 1,
+          "colour": "#E6B0CC"
+        },
+        {
+          "id": 11,
+          "display_angle_degrees": -40.6688,
+          "label": "\u2248 -40.6688\u00b0",
+          "count": 1,
+          "colour": "#97CCD9"
+        },
+        {
+          "id": 12,
+          "display_angle_degrees": -40.62862,
+          "label": "\u2248 -40.62862\u00b0",
+          "count": 1,
+          "colour": "#CDD598"
+        },
+        {
+          "id": 13,
+          "display_angle_degrees": -39.65052,
+          "label": "\u2248 -39.65052\u00b0",
+          "count": 1,
+          "colour": "#EDB685"
+        },
+        {
+          "id": 14,
+          "display_angle_degrees": -0.02606,
+          "label": "\u2248 -0.02606\u00b0",
+          "count": 1,
+          "colour": "#A3BDDF"
+        }
+      ]
+    },
+    {
+      "n": 261,
+      "image": "images/n261.png",
+      "image_sha256": "b1fec927b5939f23e40758344ee449327d53c298a2da1a01059dccae4b99ff79",
+      "width": 2400,
+      "height": 1600,
+      "certificate": "certificates/n261.cert",
+      "certificate_sha256": "9141f7eb86ae23388d349efd810992727f16ca09bc9d0d1a5b94cd5e2a3f0019",
+      "side_fraction": "281511998443714605777671262552678001053511713995864784318453182156213791529093472577894719178723409384395264262601/16878452773388004800535351238155816857400040173477095354881922318666694517637251382500000000000000000000000000000",
+      "side_upper_decimal": "16.678779875343207747",
+      "geometry": "vertices computed with exact Fraction arithmetic, then rounded for drawing",
+      "rotation_key": "actual rotations modulo 90 degrees, rounded to 5 decimals; no angle-range labels",
+      "categories": [
+        {
+          "id": 1,
+          "display_angle_degrees": 0.0,
+          "label": "\u2248 0\u00b0",
+          "count": 156,
+          "colour": "#B4D8EF"
+        },
+        {
+          "id": 2,
+          "display_angle_degrees": -41.88198,
+          "label": "\u2248 -41.88198\u00b0",
+          "count": 62,
+          "colour": "#F7C99D"
+        },
+        {
+          "id": 3,
+          "display_angle_degrees": -41.88184,
+          "label": "\u2248 -41.88184\u00b0",
+          "count": 42,
+          "colour": "#D0B9E4"
+        },
+        {
+          "id": 4,
+          "display_angle_degrees": -41.88183,
+          "label": "\u2248 -41.88183\u00b0",
+          "count": 1,
+          "colour": "#EDD06C"
+        }
+      ]
+    }
+  ]
+}

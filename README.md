@@ -8,11 +8,11 @@ Refinements found by me, Robert Barnett, with the assistance of codex.
 
 The following saved certificates remain below the strongest relevant public comparisons located on 11 October 2026, including open and closed issues and their comments in [jlevy/squares](https://github.com/jlevy/squares/issues). These are local refinements of existing layouts. Catalogue acceptance and global optimality are unestablished.
 
-| Unit squares | Checked comparison side (approx.) | Certified upper bound (rounded up) | Side reduction (approx.) | Certificate |
-| ---: | ---: | ---: | ---: | --- |
-| 146 | 12.58378227741507688182… | **12.583782203951046204** | 7.346403E-8 | [n146.cert](certificates/n146.cert) |
-| 261 | 16.6787798754 | **16.678779875343207747** | 5.679225E-11 | [n261.cert](certificates/n261.cert) |
-| 2,043 | 45.69642783940993535889… | **45.69569132055726** | 0.0007365189 | [n2043.cert](certificates/n2043.cert) |
+| Unit squares | Checked comparison side (approx.) | Certified upper bound (rounded up) | Side reduction (approx.) | Certificate | Diagram |
+| ---: | ---: | ---: | ---: | --- | --- |
+| 146 | 12.58378227741507688182… | **12.583782203951046204** | 7.346403E-8 | [n146.cert](certificates/n146.cert) | [Packing](images/n146.png) |
+| 261 | 16.6787798754 | **16.678779875343207747** | 5.679225E-11 | [n261.cert](certificates/n261.cert) | [Packing](images/n261.png) |
+| 2,043 | 45.69642783940993535889… | **45.69569132055726** | 0.0007365189 | [n2043.cert](certificates/n2043.cert) | — |
 
 Each certificate establishes `s(n) <= S`, with the exact rational side `S` in its first data row. [The result metadata](results/review-2026-10-11.json) retains the exact sides, differences, source revisions, hashes and verification receipts. Displayed upper bounds are rounded upward; reduction figures are approximate.
 
