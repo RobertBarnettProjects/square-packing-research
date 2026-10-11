@@ -6,7 +6,7 @@
   "results": [
     {
       "n": 70,
-      "certificate": "certificates/n070.cert",
+      "certificate": "superseded/certificates/n070.cert",
       "side": "8.880960371668802",
       "side_fraction": "4440480185834401/500000000000000",
       "sha256": "767adfdc54477bf1fc2c46eeaf0f71cdfc87c8639391bb43ec5a0586bff4cdc2",
@@ -24,7 +24,7 @@
     },
     {
       "n": 103,
-      "certificate": "certificates/n103.cert",
+      "certificate": "superseded/certificates/n103.cert",
       "side": "10.679232047495411",
       "side_fraction": "10679232047495411/1000000000000000",
       "sha256": "496da623c14ea7983729f7b3e380cb1c7431612a85de52b0c30f636d3d3a2952",
@@ -42,7 +42,7 @@
     },
     {
       "n": 123,
-      "certificate": "certificates/n123.cert",
+      "certificate": "superseded/certificates/n123.cert",
       "side": "11.591378145643661",
       "side_fraction": "11591378145643661/1000000000000000",
       "sha256": "b3ea89a34eda651cc851f126d9adb023f74e9e2cdb49745c114abe4b9142cd1c",
@@ -60,7 +60,7 @@
     },
     {
       "n": 295,
-      "certificate": "certificates/n295.cert",
+      "certificate": "superseded/certificates/n295.cert",
       "side": "17.704232790955142",
       "side_fraction": "8852116395477571/500000000000000",
       "sha256": "e9226d79456445dd4513c6fb95d8b34ebe568959816bf77e60a19af937b3ac73",

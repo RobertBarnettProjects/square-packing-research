@@ -22,19 +22,7 @@ The two current results below the submission catalogue's size limit were submitt
 
 ## Historical results
 
-These certificates remain valid improvements over their dated starting sources. Smaller packings are now available from the public comparisons or from a later refinement above. They are retained as superseded and excluded from the current registration request.
-
-| Unit squares | Historical certified upper bound (rounded up) | Certificate | Current standing |
-| ---: | ---: | --- | --- |
-| 70 | 8.880960371556215075 | [n070.cert](certificates/refinements-2026-10-10/n070.cert) | Superseded |
-| 103 | 10.679232047362129301 | [n103.cert](certificates/refinements-2026-10-10/n103.cert) | Superseded |
-| 123 | 11.591378145498503553 | [n123.cert](certificates/refinements-2026-10-10/n123.cert) | Superseded |
-| 129 | 11.872029849081310953 | [n129.cert](certificates/refinements-2026-10-10/n129.cert) | Superseded |
-| 146 | 12.583782204439681157 | [n146.cert](certificates/refinements-2026-10-10/n146.cert) | Superseded by later refinement |
-| 237 | 15.903670905778137000 | [n237.cert](certificates/n237.cert) | Superseded |
-| 295 | 17.704232790737265264 | [n295.cert](certificates/refinements-2026-10-10/n295.cert) | Superseded |
-
-The newer [comparison certificate](https://raw.githubusercontent.com/franciscouzo/square-packing/f311f08901c24b2a6c5f720710a45adec23e926a/certificates/n237.cert) for the earlier large-layout refinement has side `15.90294960767783168971278840528` and passed both project exact checkers. Earlier versions and dated comparisons are retained in [the first result file](results/quiet-2026-10-10.json) and [the subsequent refinement file](results/threshold-2026-10-10.json).
+Superseded certificates and their dated comparisons are retained in [the separate archive](superseded/README.md).
 
 ## Method
 
@@ -44,7 +32,6 @@ The search refines existing configurations by adjusting square centres, rotation
 | ---: | --- | --- |
 | 146 | Minimum-movement sequential linear programming, followed by exact rational contraction and recertification. | CPU |
 | 261 | Minimum-movement sequential linear programming, followed by exact rational contraction and recertification. | CPU |
-| 237 | Shear/angle perturbation, L-BFGS relaxation under a box-size and overlap penalty, then sparse sequential linear programming. | CPU |
 | 2,043 | Sparse sequential linear programming of centres, rotations and the enclosing side. | CPU |
 
 The final coordinates and rotations were converted into exact rational certificates and checked separately from the optimizer. Search code and run logs are currently held outside this repository; the files here are sufficient to check the resulting packings.
@@ -94,7 +81,6 @@ SHA-256 of the certificate files:
 | --- | --- |
 | [n146.cert](certificates/n146.cert) | `77b5524f387472a8e5996e319d05735e2a6a0046c24e7043995549bf3945fa3d` |
 | [n261.cert](certificates/n261.cert) | `9141f7eb86ae23388d349efd810992727f16ca09bc9d0d1a5b94cd5e2a3f0019` |
-| [n237.cert](certificates/n237.cert) | `76253edce982bae58907c8c39a18433a053eb2a89adccd2dcea58737e09966b6` |
 | [n2043.cert](certificates/n2043.cert) | `bfbefba7df7481d409620da9843a51fcaf92c02fdcb733f0c0e24796fb5bd779` |
 
 ## Sources and credit
@@ -103,7 +89,6 @@ SHA-256 of the certificate files:
 | ---: | --- | --- | --- | --- |
 | 146 | **Ryan Xu**, with public regularization by **Evan Daniel**. | `12.583782277415076881822471933138952021758854841075` (reported side; exact source certificate checked) | [Pinned regularized certificate](https://raw.githubusercontent.com/evand/square-packing/7dfca4e474e5822479f3da3fadf537fb2dbd0efc/search/regularize/lists/certs/n-146.cert.gz) | 11 October 2026 |
 | 261 | **Ryan Xu**. | `16.6787798754` (original side and undilated coordinate span; exact source certificate side is `16.6787798754166787798754`) | [Pinned source certificate](https://raw.githubusercontent.com/ry-xu/square_packing/8dc415296f697f5140caea27c7a0193d52deb4e6/certificates/n261/n261.cert.json) | 11 October 2026 |
-| 237 | **Nate Chaoweeraprasit / SQUISH**, with an exact precision refinement by **Siddharth Gupta**. | `3180735247037827607980371558401 / 200000000000000000000000000000` | [Pinned comparison certificate](https://raw.githubusercontent.com/SidG2k1/square-packing-refinements/9643cb5a78c1d4dcfc867c80a6920c3a6219d05a/witnesses/packing-237.cert) | 9 October 2026 |
 | 2,043 | **David Ellsworth**, subsequently improved by **Grigoriy Dyachkov**. | `45.69642783940993535889741755` | [Pinned starting coordinates](https://raw.githubusercontent.com/evand/square-packing/7cc5af60a60cbe41f3f037839d1c111f11375f64/site/www/data/p/square-2043.json) | 9 October 2026 |
 
 OpenAI Codex assisted the numerical search, verification and preparation of these results. The two project-authored checkers were developed within this assisted research project; they are not separate human audits.

@@ -1,0 +1,80 @@
+[
+  {
+    "old_path": "certificates/n070.cert",
+    "new_path": "superseded/certificates/n070.cert",
+    "original_sha256": "767adfdc54477bf1fc2c46eeaf0f71cdfc87c8639391bb43ec5a0586bff4cdc2",
+    "archived_sha256": "767adfdc54477bf1fc2c46eeaf0f71cdfc87c8639391bb43ec5a0586bff4cdc2"
+  },
+  {
+    "old_path": "certificates/n103.cert",
+    "new_path": "superseded/certificates/n103.cert",
+    "original_sha256": "496da623c14ea7983729f7b3e380cb1c7431612a85de52b0c30f636d3d3a2952",
+    "archived_sha256": "496da623c14ea7983729f7b3e380cb1c7431612a85de52b0c30f636d3d3a2952"
+  },
+  {
+    "old_path": "certificates/n123.cert",
+    "new_path": "superseded/certificates/n123.cert",
+    "original_sha256": "b3ea89a34eda651cc851f126d9adb023f74e9e2cdb49745c114abe4b9142cd1c",
+    "archived_sha256": "b3ea89a34eda651cc851f126d9adb023f74e9e2cdb49745c114abe4b9142cd1c"
+  },
+  {
+    "old_path": "certificates/n237.cert",
+    "new_path": "superseded/certificates/n237.cert",
+    "original_sha256": "76253edce982bae58907c8c39a18433a053eb2a89adccd2dcea58737e09966b6",
+    "archived_sha256": "76253edce982bae58907c8c39a18433a053eb2a89adccd2dcea58737e09966b6"
+  },
+  {
+    "old_path": "certificates/n295.cert",
+    "new_path": "superseded/certificates/n295.cert",
+    "original_sha256": "e9226d79456445dd4513c6fb95d8b34ebe568959816bf77e60a19af937b3ac73",
+    "archived_sha256": "e9226d79456445dd4513c6fb95d8b34ebe568959816bf77e60a19af937b3ac73"
+  },
+  {
+    "old_path": "certificates/refinements-2026-10-10/n070.cert",
+    "new_path": "superseded/certificates/refinements-2026-10-10/n070.cert",
+    "original_sha256": "d216afc1f46865c3315eefc25772bc3c1468af445494259cd9f589ec9b0ee904",
+    "archived_sha256": "d216afc1f46865c3315eefc25772bc3c1468af445494259cd9f589ec9b0ee904"
+  },
+  {
+    "old_path": "certificates/refinements-2026-10-10/n103.cert",
+    "new_path": "superseded/certificates/refinements-2026-10-10/n103.cert",
+    "original_sha256": "aad052fd374b72cee05c4031afc1a31761fcc269975fff59aed21c03bce0f6cb",
+    "archived_sha256": "aad052fd374b72cee05c4031afc1a31761fcc269975fff59aed21c03bce0f6cb"
+  },
+  {
+    "old_path": "certificates/refinements-2026-10-10/n123.cert",
+    "new_path": "superseded/certificates/refinements-2026-10-10/n123.cert",
+    "original_sha256": "888b41f23a2c820cc0b93163cc9db6efe43019b1d1ac61e06dafd344e73b49e8",
+    "archived_sha256": "888b41f23a2c820cc0b93163cc9db6efe43019b1d1ac61e06dafd344e73b49e8"
+  },
+  {
+    "old_path": "certificates/refinements-2026-10-10/n129.cert",
+    "new_path": "superseded/certificates/refinements-2026-10-10/n129.cert",
+    "original_sha256": "64c8b7170d0ea9af5c190ea811643d525ec9a2496392e42b690796a22fbcf3a7",
+    "archived_sha256": "64c8b7170d0ea9af5c190ea811643d525ec9a2496392e42b690796a22fbcf3a7"
+  },
+  {
+    "old_path": "certificates/refinements-2026-10-10/n146.cert",
+    "new_path": "superseded/certificates/refinements-2026-10-10/n146.cert",
+    "original_sha256": "2345e804c7abaf996694d4ee8f1283a79e3acdecbd5eb33d41f82c403498b26b",
+    "archived_sha256": "2345e804c7abaf996694d4ee8f1283a79e3acdecbd5eb33d41f82c403498b26b"
+  },
+  {
+    "old_path": "certificates/refinements-2026-10-10/n295.cert",
+    "new_path": "superseded/certificates/refinements-2026-10-10/n295.cert",
+    "original_sha256": "effb1357bc3387848df9ecdbfe22f6aa09894d320202d3e2719da180c1b4974d",
+    "archived_sha256": "effb1357bc3387848df9ecdbfe22f6aa09894d320202d3e2719da180c1b4974d"
+  },
+  {
+    "old_path": "results/quiet-2026-10-10.json",
+    "new_path": "superseded/results/quiet-2026-10-10.json",
+    "original_sha256": "cc7527ae32674bb2700db8be72f5af05984498924fd113adca42369c89d584c4",
+    "archived_sha256": "4d1fcffda3951b354374f15b6b282473f5476d9f05dd1b3160f9f52288d4d37a"
+  },
+  {
+    "old_path": "results/threshold-2026-10-10.json",
+    "new_path": "superseded/results/threshold-2026-10-10.json",
+    "original_sha256": "745c88a38d41ee96cde69d6948d9d85256969ac0a0aa6d554eec8734f2fde537",
+    "archived_sha256": "1bbb6b9789a80fd67447474a4ea3323245dfcaab9099d8ce471ab0fab1f7e078"
+  }
+]
