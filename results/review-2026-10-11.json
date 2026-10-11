@@ -291,5 +291,16 @@
   ],
   "catalogue_acceptance_confirmed": false,
   "global_optimality_proved": false,
-  "remote_publication_performed": false
+  "remote_publication_performed": false,
+  "publication": {
+    "issue": "https://github.com/jlevy/squares/issues/505",
+    "submitted_counts": [
+      146,
+      261
+    ],
+    "submitted_on": "2026-10-12",
+    "status": "submitted for review; acceptance not established",
+    "attachment": "https://github.com/user-attachments/files/33304976/square-packing-results.zip",
+    "attachment_sha256": "49aaa81ca0dde2049ed9eb4e4d79efa5cd5fd0ebfe8f86efcc6767f92a0d1ff3"
+  }
 }
