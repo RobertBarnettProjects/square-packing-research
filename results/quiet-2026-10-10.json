@@ -17,7 +17,10 @@
       "classification": "precision-scale local refinement",
       "four_exact_checks_passed": true,
       "ellsworth_supplementary_check_passed": true,
-      "method": "normalized minimum-movement sequential linear programming"
+      "method": "normalized minimum-movement sequential linear programming",
+      "current_standing": "superseded",
+      "current_reported_comparison_side": "8.8809603715555795946966915749233641589945145681803",
+      "current_comparison_source_url": "https://raw.githubusercontent.com/evand/square-packing/7dfca4e474e5822479f3da3fadf537fb2dbd0efc/site/www/data/p/best-70.json"
     },
     {
       "n": 103,
@@ -32,7 +35,10 @@
       "classification": "precision-scale local refinement",
       "four_exact_checks_passed": true,
       "ellsworth_supplementary_check_passed": true,
-      "method": "normalized minimum-movement sequential linear programming"
+      "method": "normalized minimum-movement sequential linear programming",
+      "current_standing": "superseded",
+      "current_reported_comparison_side": "10.679232047361306442574143959522522670542298377676",
+      "current_comparison_source_url": "https://raw.githubusercontent.com/evand/square-packing/7dfca4e474e5822479f3da3fadf537fb2dbd0efc/site/www/data/p/best-103.json"
     },
     {
       "n": 123,
@@ -47,7 +53,10 @@
       "classification": "precision-scale local refinement",
       "four_exact_checks_passed": true,
       "ellsworth_supplementary_check_passed": true,
-      "method": "normalized minimum-movement sequential linear programming"
+      "method": "normalized minimum-movement sequential linear programming",
+      "current_standing": "superseded",
+      "current_reported_comparison_side": "11.591378145497698159434949402013020808699597517825",
+      "current_comparison_source_url": "https://raw.githubusercontent.com/evand/square-packing/7dfca4e474e5822479f3da3fadf537fb2dbd0efc/site/www/data/p/best-123.json"
     },
     {
       "n": 295,
@@ -62,7 +71,12 @@
       "classification": "precision-scale local refinement",
       "four_exact_checks_passed": true,
       "ellsworth_supplementary_check_passed": true,
-      "method": "separating-face choices and local refinement"
+      "method": "separating-face choices and local refinement",
+      "current_standing": "superseded",
+      "current_reported_comparison_side": "17.704232790736030357879050644204452576177593752764",
+      "current_comparison_source_url": "https://raw.githubusercontent.com/evand/square-packing/7dfca4e474e5822479f3da3fadf537fb2dbd0efc/site/www/data/p/best-295.json"
     }
-  ]
+  ],
+  "standing_checked_on": "2026-10-11",
+  "historical_comparison_note": "The original gains below are retained against their dated source certificates. All four results are superseded; none is included in the proposed registration request."
 }

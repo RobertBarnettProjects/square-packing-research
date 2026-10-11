@@ -1,0 +1,295 @@
+{
+  "checked_on": "2026-10-11",
+  "refinement_credit": "Robert Barnett, with OpenAI Codex assistance",
+  "issue_review": {
+    "open_issues": 34,
+    "closed_issues": 23,
+    "comments": 249,
+    "complete_comment_inventory": true,
+    "repository": "jlevy/squares",
+    "revision": "5b0eb012e09b48b5044aacb439b4cfacf38935f5",
+    "scope": "all issue bodies/comments, current result register, linked comparison witnesses; no worldwide priority guarantee"
+  },
+  "public_heads": {
+    "evand": "7dfca4e474e5822479f3da3fadf537fb2dbd0efc",
+    "ry-xu": "8dc415296f697f5140caea27c7a0193d52deb4e6",
+    "jlevy": "5b0eb012e09b48b5044aacb439b4cfacf38935f5",
+    "franciscouzo": "f311f08901c24b2a6c5f720710a45adec23e926a"
+  },
+  "cpu_workers": 1,
+  "gpu_executed": false,
+  "results": [
+    {
+      "n": 146,
+      "certificate": "certificates/n146.cert",
+      "sha256": "77b5524f387472a8e5996e319d05735e2a6a0046c24e7043995549bf3945fa3d",
+      "side_fraction": "116279649124311595126849961042493265136092670741573762928668277775998122712863472766532671969348798419026610394581005669/9240437194455113887096299456817024243377978045957194209468060456305894240222303442118770000000000000000000000000000000",
+      "side_decimal_approx": "12.58378220395104620345700087404080187257",
+      "side_upper_decimal": "12.583782203951046204",
+      "comparison_side_fraction": "503351291096603075272898877325558080870354193643/40000000000000000000000000000000000000000000000",
+      "comparison_side_decimal": "12.58378227741507688182247193313895202176",
+      "side_reduction_fraction": "2715359046139839401854455285301378257417337136017614709760170477407460881772153922454250401610525551562834871583094538678497911/36961748777820455548385197827268096973511912183828776837872241825223576960889213768475080000000000000000000000000000000000000000000000",
+      "side_reduction_decimal_approx": "7.346403067836547105909815014918617698174E-8",
+      "comparison_source_url": "https://raw.githubusercontent.com/evand/square-packing/7dfca4e474e5822479f3da3fadf537fb2dbd0efc/search/regularize/lists/certs/n-146.cert.gz",
+      "current_standing": "below all relevant located public comparisons",
+      "classification": "local refinement of an existing layout",
+      "method": "minimum-movement sequential linear programming, exact rational recertification",
+      "credited_layout": "Ryan Xu",
+      "credited_public_refinement": "Evan Daniel regularization",
+      "verification": {
+        "checked_on": "2026-10-11",
+        "four_exact_checks_passed": true,
+        "supplementary_ellsworth_passed": true,
+        "all_unordered_pairs": 10585,
+        "min_wall_clearance_approx": "3.925867163617257724451777167097419555172E-14",
+        "min_detailed_pair_clearance_approx": "1.206274437669934595692664605750458345270E-16",
+        "checks": [
+          {
+            "name": "project SAT",
+            "arithmetic": "exact rational",
+            "script_sha256": "02950cf3d634c2850bfcd2c38ff26123ad4ed32ad78fa8229488340f0865cbd7",
+            "valid": true,
+            "seconds": 0.015,
+            "all_unordered_pairs": 10585,
+            "detailed_pairs": 104
+          },
+          {
+            "name": "project polygon",
+            "arithmetic": "exact rational",
+            "script_sha256": "88a26accc111aefeff7f68387616f109528f7a803b1438199e864bbd7c1c980e",
+            "valid": true,
+            "seconds": 0.141,
+            "all_unordered_pairs": 10585,
+            "detailed_pairs": 104
+          },
+          {
+            "name": "published_sat",
+            "arithmetic": "exact rational",
+            "script_sha256": "3299ca0c0f02f7c221deeea69a9a85b5a90db6bc410b20727fdff211c92bed52",
+            "valid": true,
+            "exit_code": 0,
+            "seconds": 0.219,
+            "stdout": "n = 146, S = 116279649124311595126849961042493265136092670741573762928668277775998122712863472766532671969348798419026610394581005669/9240437194455113887096299456817024243377978045957194209468060456305894240222303442118770000000000000000000000000000000 (~12.583782203951045631)\n  min wall clearance  = 3.926e-14  (square #27)\n  min pair separation = 1.206e-16  (squares #71, #72; 334 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S\n"
+          },
+          {
+            "name": "published_polygon",
+            "arithmetic": "exact rational",
+            "script_sha256": "55140a35d95d9eaa64a14c3b044641efbcda94ebfc3b12b7dec9fa52692e31d3",
+            "valid": true,
+            "exit_code": 0,
+            "seconds": 0.484,
+            "stdout": "VALID: 146 closed unit squares pairwise disjoint inside the open box of side 12.583782203951045631 (334 close pairs checked)\n"
+          },
+          {
+            "name": "ellsworth_numerical",
+            "arithmetic": "Decimal, supplementary numerical",
+            "script_sha256": "75f60160e43521514263e6f51b35de2b7588ec6e61268cb22104ab139a4107f5",
+            "valid": true,
+            "exit_code": 0,
+            "seconds": 0.125,
+            "stdout": "Checking submission-review-2026-10-11\\verification\\n146\\external\\ellsworth-input-140digits.txt\nEpsilon: 1E-90\nS: 12.583782203951046203457000874040801872572677859331908552042079962063329539797340718750677542993730963546835684387914157344052101887777315523\nContainer: OK\nOverlaps: NONE\nVALID\n"
+          }
+        ]
+      },
+      "public_comparisons": [
+        {
+          "kind": "exact regularized certificate",
+          "side_fraction": "6291891138707538440974154877957/500000000000000000000000000000",
+          "side": "12.583782277415076881948309755914",
+          "sha256": "7386e5853b3ed5a71f3ca447dae2583dc20b2921e494b8b5d972f319d97dc3da"
+        },
+        {
+          "kind": "current atlas full-precision reported side",
+          "side_fraction": "503351291096603075272898877325558080870354193643/40000000000000000000000000000000000000000000000",
+          "side": "12.58378227741507688182247193313895202176"
+        }
+      ]
+    },
+    {
+      "n": 261,
+      "certificate": "certificates/n261.cert",
+      "sha256": "9141f7eb86ae23388d349efd810992727f16ca09bc9d0d1a5b94cd5e2a3f0019",
+      "side_fraction": "281511998443714605777671262552678001053511713995864784318453182156213791529093472577894719178723409384395264262601/16878452773388004800535351238155816857400040173477095354881922318666694517637251382500000000000000000000000000000",
+      "side_decimal_approx": "16.67877987534320774669774826773269092518",
+      "side_upper_decimal": "16.678779875343207747",
+      "comparison_side_fraction": "83393899377/5000000000",
+      "comparison_side_decimal": "16.6787798754",
+      "side_reduction_fraction": "958565365256344824545709757140147616676518529398244955630378751914226137917108561776590615604735737399/16878452773388004800535351238155816857400040173477095354881922318666694517637251382500000000000000000000000000000",
+      "side_reduction_decimal_approx": "5.679225330225173226730907481676534884320E-11",
+      "comparison_source_url": "https://raw.githubusercontent.com/ry-xu/square_packing/8dc415296f697f5140caea27c7a0193d52deb4e6/certificates/n261/n261.cert.json",
+      "current_standing": "below all relevant located public comparisons",
+      "classification": "local refinement of an existing layout",
+      "method": "minimum-movement sequential linear programming, exact rational recertification",
+      "credited_layout": "Ryan Xu",
+      "credited_public_refinement": null,
+      "verification": {
+        "checked_on": "2026-10-11",
+        "four_exact_checks_passed": true,
+        "supplementary_ellsworth_passed": true,
+        "all_unordered_pairs": 33930,
+        "min_wall_clearance_approx": "4.688121887422051496182090101269968114616E-14",
+        "min_detailed_pair_clearance_approx": "1.206059991209146818617745657203236457433E-16",
+        "checks": [
+          {
+            "name": "project SAT",
+            "arithmetic": "exact rational",
+            "script_sha256": "02950cf3d634c2850bfcd2c38ff26123ad4ed32ad78fa8229488340f0865cbd7",
+            "valid": true,
+            "seconds": 0.031,
+            "all_unordered_pairs": 33930,
+            "detailed_pairs": 277
+          },
+          {
+            "name": "project polygon",
+            "arithmetic": "exact rational",
+            "script_sha256": "88a26accc111aefeff7f68387616f109528f7a803b1438199e864bbd7c1c980e",
+            "valid": true,
+            "seconds": 0.344,
+            "all_unordered_pairs": 33930,
+            "detailed_pairs": 277
+          },
+          {
+            "name": "published_sat",
+            "arithmetic": "exact rational",
+            "script_sha256": "3299ca0c0f02f7c221deeea69a9a85b5a90db6bc410b20727fdff211c92bed52",
+            "valid": true,
+            "exit_code": 0,
+            "seconds": 0.485,
+            "stdout": "n = 261, S = 281511998443714605777671262552678001053511713995864784318453182156213791529093472577894719178723409384395264262601/16878452773388004800535351238155816857400040173477095354881922318666694517637251382500000000000000000000000000000 (~16.678779875343206385)\n  min wall clearance  = 4.688e-14  (square #46)\n  min pair separation = 1.206e-16  (squares #36, #149; 561 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S\n"
+          },
+          {
+            "name": "published_polygon",
+            "arithmetic": "exact rational",
+            "script_sha256": "55140a35d95d9eaa64a14c3b044641efbcda94ebfc3b12b7dec9fa52692e31d3",
+            "valid": true,
+            "exit_code": 0,
+            "seconds": 0.797,
+            "stdout": "VALID: 261 closed unit squares pairwise disjoint inside the open box of side 16.678779875343206385 (561 close pairs checked)\n"
+          },
+          {
+            "name": "ellsworth_numerical",
+            "arithmetic": "Decimal, supplementary numerical",
+            "script_sha256": "75f60160e43521514263e6f51b35de2b7588ec6e61268cb22104ab139a4107f5",
+            "valid": true,
+            "exit_code": 0,
+            "seconds": 0.234,
+            "stdout": "Checking submission-review-2026-10-11\\verification\\n261\\external\\ellsworth-input-140digits.txt\nEpsilon: 1E-90\nS: 16.678779875343207746697748267732690925183234651156796404146698260159995139083676611858595336524133131855181596338630517392725755093941884764\nContainer: OK\nOverlaps: NONE\nVALID\n"
+          }
+        ]
+      },
+      "public_comparisons": [
+        {
+          "kind": "exact regularized certificate",
+          "side_fraction": "8341463414634146341546829268293/500000000000000000000000000000",
+          "side": "16.682926829268292683093658536586",
+          "sha256": "df67b9652677f8d82f573a45973525d236873c2d8764c9de0523b03b17da9bc8"
+        },
+        {
+          "kind": "Ryan Xu exact certificate, issue 432",
+          "side_fraction": "83393899377083393899377/5000000000000000000000",
+          "side": "16.6787798754166787798754",
+          "sha256": "82674a81e53ede1bff3ca61f347e76dc05bdf98147458d198a5d1e38ee7ba2ac"
+        },
+        {
+          "kind": "source coordinate span after undoing stated centre dilation",
+          "side_fraction": "83393899377/5000000000",
+          "side": "16.6787798754",
+          "feasible_packing_claim": false
+        },
+        {
+          "kind": "current atlas display from issue 432, rounded",
+          "side_fraction": "83393899377083/5000000000000",
+          "side": "16.6787798754166"
+        }
+      ],
+      "comparison_note": "Conservative baseline is the original undilated source span, also the reported source side; it is not itself an exact feasible certificate. The checked prior certificate has side 16.6787798754166787798754."
+    },
+    {
+      "n": 2043,
+      "certificate": "certificates/n2043.cert",
+      "sha256": "bfbefba7df7481d409620da9843a51fcaf92c02fdcb733f0c0e24796fb5bd779",
+      "side_fraction": "2284784566027863/50000000000000",
+      "side_decimal_approx": "45.69569132055726",
+      "side_upper_decimal": "45.69569132055726",
+      "comparison_side_fraction": "913928556788198707177948351/20000000000000000000000000",
+      "comparison_side_decimal": "45.69642783940993535889741755",
+      "side_reduction_fraction": "14730377053507177948351/20000000000000000000000000",
+      "side_reduction_decimal_approx": "0.00073651885267535889741755",
+      "comparison_source_url": "https://raw.githubusercontent.com/evand/square-packing/7dfca4e474e5822479f3da3fadf537fb2dbd0efc/site/www/data/p/square-2043.json",
+      "current_standing": "below all relevant located public comparisons",
+      "classification": "local refinement of an existing layout",
+      "method": "sparse sequential linear programming, exact rational recertification",
+      "credited_layout": "David Ellsworth, subsequently improved by Grigoriy Dyachkov",
+      "credited_public_refinement": null,
+      "verification": {
+        "checked_on": "2026-10-11",
+        "four_exact_checks_passed": true,
+        "supplementary_ellsworth_passed": true,
+        "all_unordered_pairs": 2085903,
+        "min_wall_clearance_approx": "0.000001922343428776000574619580071950334668030",
+        "min_detailed_pair_clearance_approx": "2.007391761937396774128641253834882106876E-12",
+        "checks": [
+          {
+            "name": "project SAT",
+            "arithmetic": "exact rational",
+            "script_sha256": "02950cf3d634c2850bfcd2c38ff26123ad4ed32ad78fa8229488340f0865cbd7",
+            "valid": true,
+            "seconds": 0.266,
+            "all_unordered_pairs": 2085903,
+            "detailed_pairs": 1956
+          },
+          {
+            "name": "project polygon",
+            "arithmetic": "exact rational",
+            "script_sha256": "88a26accc111aefeff7f68387616f109528f7a803b1438199e864bbd7c1c980e",
+            "valid": true,
+            "seconds": 2.609,
+            "all_unordered_pairs": 2085903,
+            "detailed_pairs": 1956
+          },
+          {
+            "name": "published_sat",
+            "arithmetic": "exact rational",
+            "script_sha256": "3299ca0c0f02f7c221deeea69a9a85b5a90db6bc410b20727fdff211c92bed52",
+            "valid": true,
+            "exit_code": 0,
+            "seconds": 7.391,
+            "stdout": "n = 2043, S = 2284784566027863/50000000000000 (~45.695691320557259019)\n  min wall clearance  = 1.922e-06  (square #1327)\n  min pair separation = 2.007e-12  (squares #1362, #1365; 4713 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S\n"
+          },
+          {
+            "name": "published_polygon",
+            "arithmetic": "exact rational",
+            "script_sha256": "55140a35d95d9eaa64a14c3b044641efbcda94ebfc3b12b7dec9fa52692e31d3",
+            "valid": true,
+            "exit_code": 0,
+            "seconds": 9.797,
+            "stdout": "VALID: 2043 closed unit squares pairwise disjoint inside the open box of side 45.695691320557259019 (4713 close pairs checked)\n"
+          },
+          {
+            "name": "ellsworth_numerical",
+            "arithmetic": "Decimal, supplementary numerical",
+            "script_sha256": "75f60160e43521514263e6f51b35de2b7588ec6e61268cb22104ab139a4107f5",
+            "valid": true,
+            "exit_code": 0,
+            "seconds": 13.656,
+            "stdout": "Checking submission-review-2026-10-11\\verification\\n2043\\external\\ellsworth-input-140digits.txt\nEpsilon: 1E-90\nS: 45.69569132055726\nContainer: OK\nOverlaps: NONE\nVALID\n"
+          }
+        ]
+      },
+      "public_comparisons": [
+        {
+          "kind": "current atlas full-precision starting coordinates",
+          "side_fraction": "913928556788198707177948351/20000000000000000000000000",
+          "side": "45.69642783940993535889741755"
+        }
+      ]
+    }
+  ],
+  "reference_checker_source_urls": [
+    "https://raw.githubusercontent.com/evand/square-packing/268af529546176a25224ea3b2c7d29cef8d9e911/search/exact/verify_cert.py",
+    "https://raw.githubusercontent.com/evand/square-packing/268af529546176a25224ea3b2c7d29cef8d9e911/search/exact/verify_cert2.py"
+  ],
+  "catalogue_acceptance_confirmed": false,
+  "global_optimality_proved": false,
+  "remote_publication_performed": false
+}
